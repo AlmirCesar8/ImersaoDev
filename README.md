@@ -1,5 +1,4 @@
-
-### **⚽ Busca Rápida pelos Craques Coringão! ⚽**
+## **⚽ Busca Rápida pelos Craques Coringão! ⚽**
 
 **O que faz essa aplicação?**
 
@@ -26,7 +25,7 @@ Imagina que você é um corinthiano de carteirinha e quer saber tudo sobre seus 
 1. **Clone o repositório:** Faça um clone desse projeto para o seu computador.
 2. **Abra o arquivo index.html:** Abra o arquivo index.html em seu navegador.
 3. **Comece a pesquisar:** Divirta-se buscando seus jogadores favoritos!
-4. **Ou acesse o site através do [link](https://jogadores-do-corinthians-pink.vercel.app/)
+4. **Link:** Ou acesse o site através do [link](https://jogadores-do-corinthians-pink.vercel.app/)
 
 **Quer contribuir?**
 
