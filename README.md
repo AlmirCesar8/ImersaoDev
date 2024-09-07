@@ -1,4 +1,3 @@
-## **README.md Descontraído para o seu Projeto**
 
 ### **⚽ Busca Rápida pelos Craques Coringão! ⚽**
 
