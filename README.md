@@ -2,16 +2,18 @@
 
 **O que faz essa aplicação?**
 
-Imagina que você é um corinthiano de carteirinha e quer saber tudo sobre seus jogadores favoritos? Com essa aplicação, você digita o nome do jogador, sua posição ou sua nacionalidade e pronto! A mágica acontece: uma lista com todas as informações que você precisa aparece na tela, como nome completo, posição em campo, uma breve descrição e links para o Instagram e Wikipedia do atleta. 
+Imagina que você é um corinthiano de carteirinha e quer saber tudo sobre seus jogadores favoritos? Com essa aplicação, você digita o nome do jogador, sua posição ou sua nacionalidade e pronto! A mágica acontece: uma lista com todas as informações que você precisa aparece na tela, como nome completo, posição em campo, algumas estatísticas, uma breve descrição e links para o Instagram e Wikipedia do atleta. 
 
 **Como funciona?**
 
-* **Digite e pesquise:** Na barra de pesquisa, você coloca o nome do jogador ou sua posição.
+* **Digite e pesquise:** Na barra de pesquisa, você coloca o nome do jogador, sua nacionalidade ou sua posição.
 * **Resultados na hora:** A aplicação vasculha uma lista completa de jogadores do Corinthians (que está escondida nos códigos, mas você pode imaginar que é super completa!) e te mostra todos os que combinam com a sua busca.
 * **Informações completas:** Para cada jogador encontrado, você encontra:
-    * **Nome:** O nome completo do craque.
-    * **Posição:** Em qual posição ele joga em campo.
-    * **Descrição:** Uma breve descrição sobre o jogador.
+    * **Nome:** O nome completo do craque, logicamente.
+    * **Posição:** Em qual posição ele joga em campo, se é goleiro, atacante, etc...
+    * **Estatísticas:** Número de partidas, número de gols e assitências / o número de gols sofridos e pênaltis defendidos(para goleiros).
+    * **Complementares:** Sua nacionalidade e sua idade, junto do número que nosso craque utiliza no timão.
+    * **Descrição:** Uma breve biografia de cada jogador, destacando suas principais características e conquistas.
     * **Links:** Links diretos para o Instagram e Wikipedia do jogador, para você saber ainda mais sobre ele.
 
 **Tecnologias usadas:**
