@@ -3,8 +3,8 @@ let dados = [
         nome: "André Ramalho",
         descricao: "André Ramalho é um zagueiro experiente que chegou ao Corinthians com o status de reforço de peso. Com passagens por grandes clubes europeus, o defensor trouxe para o Timão sua solidez defensiva, liderança e experiência em grandes jogos. Sua chegada fortaleceu a zaga corinthiana, proporcionando mais segurança e organização à equipe. Com sua liderança natural, André Ramalho rapidamente se tornou um dos pilares do time e conquistou a confiança da Fiel Torcida.",
         insta: "https://www.instagram.com/ramalho92/",
-        wiki: "https://pt.wikipedia.org/wiki/André_Ramalho", // Exemplo
-        nacionalidade: "brasileiro",
+        wiki: "https://pt.wikipedia.org/wiki/André_Ramalho",
+        nacionalidade: "Brasileiro",
         idade: 32,
         camisa: 5,
         posicao: "zagueiro",
@@ -12,6 +12,7 @@ let dados = [
         titulos: 0,
         gols: 0,
         assistencias: 0,
+        tags: "andre",
     },
 
     {
@@ -19,14 +20,15 @@ let dados = [
         descricao: "Possui uma trajetória marcante no Corinthians. Sua habilidade e garra em campo o tornaram um ídolo da Fiel, contribuindo para diversos títulos e momentos históricos do clube. Com 2 passagens pelo Corinthians, Ángel Romero se destaca como o maiore artilheiro estrangeiro da história do clube, além de ser também o maior artilheiro da Neo Química Arena. Sua importância é inegável, sendo peça fundamental em diversas conquistas alvinegras.",
         insta: "https://www.instagram.com/romeroteam/",
         wiki: "https://pt.wikipedia.org/wiki/%C3%81ngel_Romero_(futebolista)",
-        nacionalidade: "paraguaio",
+        nacionalidade: "Paraguaio",
         idade: 32,
         camisa: 11,
-        posicao: "ponta esquerda",
+        posicao: "ponta esquerdo",
         jogos: 306,
         titulos: 4,
         gols: 58,
         assistencias: 24,
+        tags: "angel",
     },
 
     {
@@ -34,7 +36,7 @@ let dados = [
         descricao: "Revelado nas categorias de base do Corinthians e passagens pela Seleção Brasileira, o jogador acumula passagens por outros clubes, mas sempre retorna ao Timão. Sua identificação com o clube, com sua entrega e raça, sua versatilidade e sua experiência em campo o tornam um dos pilares da equipe. Com diversos títulos conquistados, incluindo Campeonatos Brasileiros e Paulistas, Fagner é peça fundamental no esquema tático do Corinthians e um dos líderes do elenco. Sua trajetória no clube é marcada por diversos momentos memoráveis.",
         insta: "https://www.instagram.com/fagneroficial23/",
         wiki: "https://pt.wikipedia.org/wiki/Fagner_(futebolista)",
-        nacionalidade: "brasileiro",
+        nacionalidade: "Brasileiro",
         idade: 34,
         camisa: 23,
         posicao: "lateral direito",
@@ -42,6 +44,7 @@ let dados = [
         titulos: 5,
         gols: 12,
         assistencias: 67,
+        tags: "",
     },
 
     {
@@ -49,14 +52,15 @@ let dados = [
         descricao: "Revelação das categorias de base do Flamengo, Hugo Souza chegou ao Corinthians em 2024 por empréstimo e rapidamente se adaptou ao estilo de jogo do Timão. Sua segurança sob as traves e importantes defesas o transformaram em peça fundamental da equipe, conquistando a confiança da torcida corintiana. A chegada do jovem goleiro gerou grande expectativa, e sua performance em campo tem confirmado o potencial para se tornar um dos grandes ídolos da posição.",
         insta: "https://www.instagram.com/hugosouza/",
         wiki: "https://pt.wikipedia.org/wiki/Hugo_Souza",
-        nacionalidade: "brasileiro",
+        nacionalidade: "Brasileiro",
         idade: 25,
         camisa: 1,
         posicao: "goleiro",
         jogos: 14,
         titulos: 0,
         penal_def: 4,
-        gols_sofri: 14
+        gols_sofri: 14,
+        tags: "",
     },
     
     {
@@ -64,7 +68,7 @@ let dados = [
         descricao: "Com passagens por diversos clubes europeus, Igor chegou ao Corinthians com a expectativa de ser o maestro do time. Sua chegada fortaleceu o meio-campo alvinegro, proporcionando mais qualidade e criatividade ao time com sua visão de jogo, habilidade para criar jogadas e precisão nos passes. Com gols importantes e assistências precisas, Coronado se tornou um dos principais jogadores do Corinthians e impressionou a torcida com seu futebol técnico e elegante.",
         insta: "https://www.instagram.com/igor_coronado/",
         wiki: "https://pt.wikipedia.org/wiki/Igor_Coronado",
-        nacionalidade: "brasileiro",
+        nacionalidade: "Brasileiro",
         idade: 32,
         camisa: 77,
         posicao: "meia ofensivo",
@@ -72,6 +76,7 @@ let dados = [
         titulos: 0,
         gols: 2,
         assistencias: 3,
+        tags: "",
     },
       
     {
@@ -79,7 +84,7 @@ let dados = [
         descricao: "Chegou ao Corinthians com a expectativa de ser um dos pilares do meio-campo alvinegro. Vindo do Cuiabá em 2024, o jogador rapidamente se firmou como titular e conquistou a torcida com sua raça e entrega em campo. Sua versatilidade permite atuar tanto como volante quanto como zagueiro, agregando ainda mais valor ao elenco. Com atuações consistentes, Raniele se tornou peça fundamental no esquema tático do Corinthians.",
         insta: "https://www.instagram.com/r14niele/",
         wiki: "https://pt.wikipedia.org/wiki/Raniele",
-        nacionalidade: "brasileiro",
+        nacionalidade: "Brasileiro",
         idade: 27,
         camisa: 14,
         posicao: "volante",
@@ -87,6 +92,7 @@ let dados = [
         titulos: 0,
         gols: 0,
         assistencias: 0,
+        tags: "",
     },
     
     {
@@ -94,7 +100,7 @@ let dados = [
         descricao: " Chegando ao clube em 2024, como uma revelação do futbol argentino, o jogador rapidamente se adaptou ao futebol brasileiro e se tornou uma peça fundamental no meio-campo alvinegro. Sua visão de jogo, passes precisos e habilidade para criar jogadas o tornam um dos principais articuladores do time. Com rápida ascensão, Garro já conquistou a torcida com seu futebol técnico e elegante, sendo peça chave nos esquemas dos treinadores. Sua importância para o time é evidente, pois ele é o responsável por ditar o ritmo das partidas e criar oportunidades de gol para seus companheiros.",
         wiki: "https://pt.wikipedia.org/wiki/Rodrigo_Garro",
         insta: "https://www.instagram.com/rodrigarroo/",
-        nacionalidade: "argentino",
+        nacionalidade: "Argentino",
         idade: 26,
         camisa: 10,
         posicao: "meia ofensivo",
@@ -102,6 +108,7 @@ let dados = [
         titulos: 0,
         gols: 6,
         assistencias: 5,
+        tags: "",
     },
 
     {
@@ -109,7 +116,7 @@ let dados = [
         descricao: "Um jovem talento que despontou no futebol brasileiro defendendo as cores do Vasco da Gama. Contratado pelo New York City FC, o atacante logo foi emprestado ao Corinthians, onde rapidamente se tornou ídolo da Fiel Torcida. Sua velocidade, dribles e finalizações precisas o destacam em campo. Com passagens marcantes pela Seleção Brasileira de base, Talles Magno já acumula gols importantes com a camisa alvinegra, sendo peça fundamental nos esquemas dos treinadores.",
         insta: "https://www.instagram.com/talles_magno/",
         wiki: "https://pt.wikipedia.org/wiki/Talles_Magno",
-        nacionalidade: "brasileiro",
+        nacionalidade: "Brasileiro",
         idade: 22,
         camisa: 43,
         posicao: "ponta esquerdo",
@@ -117,6 +124,7 @@ let dados = [
         titulos: 0,
         gols: 3,
         assistencias: 0,
+        tags:"tales",
     },
 
     {
@@ -124,7 +132,7 @@ let dados = [
         descricao: "Chegou ao Corinthians com grande expectativa. Revelado pelo Santos, ele passou pelo Internacional e teve uma experiência na Europa antes de retornar ao Brasil. Com um estilo de jogo aguerrido e habilidade para finalizar, Yuri logo se tornou peça fundamental no ataque corinthiano. Apesar de seus altos e baixos no clube, tem a admiração de parte da torcida por sua entrega em campo. Sua importância para o time é evidente, pois ele é um dos principais responsáveis por converter as chances de gol criadas pela equipe.",
         insta: "https://www.instagram.com/yurialberto/",
         wiki: "https://pt.wikipedia.org/wiki/Yuri_Alberto",
-        nacionalidade: "brasileiro",
+        nacionalidade: "Brasileiro",
         idade: 23,
         camisa: 9,
         posicao: "centroavante",
@@ -132,5 +140,6 @@ let dados = [
         titulos: 0,
         gols: 42,
         assistencias: 13,
+        tags: "",
     },
 ];
