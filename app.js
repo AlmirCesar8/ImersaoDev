@@ -25,7 +25,7 @@ function pesquisar() {
           resultado += `
           <div class="item-resultado">
             <h2><a href=${dado.insta} target="_blank">${dado.nome}</a></h2>
-            <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, sem nenhum gol marcado e sem nenhuma assistências nessas partidas. ${dado.descricao}</p>
+            <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, sem nenhum gol marcado e sem nenhuma assistência nessas partidas. ${dado.descricao}</p>
             <a href="${dado.wiki}" target="_blank">Mais informações</a>
           </div>
           `;

@@ -32,6 +32,38 @@ let dados = [
     },
 
     {
+        nome: "Cacá",
+        descricao: "Chegou ao Corinthians em 2024, como empréstimo, para dar mais solidez à defesa alvinegra. Sua altura e força física o tornam um defensor imponente, difícil de ser superado no jogo aéreo. Cacá se tornou um dos pilares da equipe com seu faro de gol, tanto a favor, quanto contra. Sua chegada ao Corinthians trouxe mais segurança defensiva e contribuiu em jogos importantes, conquistanto o apreço da Fiel Torcida.",
+        insta: "https://www.instagram.com/cacazagueiro/",
+        wiki: "https://pt.wikipedia.org/wiki/Cacá_(futebolista_de_1999)",
+        nacionalidade: "Brasileiro",
+        idade: 25,
+        camisa: 25,
+        posicao: "zagueiro",
+        jogos: 31,
+        titulos: 0,
+        gols: 5,
+        assistencias: 1,
+        tags: "caca",
+    },
+
+    {
+        nome: "Caetano",
+        descricao: "Um 'cria do terrão' que vem se destacando no profissional. Revelado nas categorias de base, Apesar da pouca idade, o zagueiro conquistou seu espaço no time principal, por um período, com sua técnica apurada, visão de jogo e bom passe. Sua versatilidade permite atuar tanto como zagueiro central quanto como lateral esquerdo, agregando ainda mais valor ao elenco. Com grande potencial, o jovem defensor é visto como uma das 'promessas' do futebol brasileiro.",
+        insta: "https://www.instagram.com/caetano99/",
+        wiki: "https://www.transfermarkt.com.br/caetano/profil/spieler/625345",
+        nacionalidade: "Brasileiro",
+        idade: 25,
+        camisa: 4,
+        posicao: "zagueiro",
+        jogos: 36,
+        titulos: 0,
+        gols: 0,
+        assistencias: 0,
+        tags: "cria do terrão terrao",
+    },
+        
+    {
         nome: "Fagner",
         descricao: "Revelado nas categorias de base do Corinthians e passagens pela Seleção Brasileira, o jogador acumula passagens por outros clubes, mas sempre retorna ao Timão. Sua identificação com o clube, com sua entrega e raça, sua versatilidade e sua experiência em campo o tornam um dos pilares da equipe. Com diversos títulos conquistados, incluindo Campeonatos Brasileiros e Paulistas, Fagner é peça fundamental no esquema tático do Corinthians e um dos líderes do elenco. Sua trajetória no clube é marcada por diversos momentos memoráveis.",
         insta: "https://www.instagram.com/fagneroficial23/",
@@ -44,7 +76,23 @@ let dados = [
         titulos: 5,
         gols: 12,
         assistencias: 67,
-        tags: "",
+        tags: "cria do terrão terrao",
+    },
+
+    {
+        nome: "Félix Torres",
+        descricao: "Félix Torres é um zagueiro paraguaio que se tornou peça fundamental na defesa do Corinthians. Com sua força física e bom posicionamento, o defensor rapidamente conquistou a 'confiança' da Fiel Torcida. Sua liderança em campo e experiência internacional agregam valor ao time alvinegro. Com atuações consistentes, Félix Torres se firmou como um dos pilares da defesa corinthiana, contribuindo para a solidez defensiva da equipe.",
+        insta: "https://www.instagram.com/felix_torres_s_c/",
+        wiki: "https://pt.wikipedia.org/wiki/Félix_Torres",
+        nacionalidade: "Equatoriano",
+        idade: 27,
+        camisa: 3,
+        posicao: "zagueiro",
+        jogos: 42,
+        titulos: 0,
+        gols: 0,
+        assistencias: 0,
+        tags: "felix"
     },
 
     {
@@ -142,4 +190,5 @@ let dados = [
         assistencias: 13,
         tags: "",
     },
+    
 ];
