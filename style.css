@@ -24,6 +24,7 @@ body {
 
 /* Estiliza os títulos h1 */
 h1 {
+    margin-top: 8%;
     font-size: 2.5rem;
     /* Tamanho da fonte */
     color: #222831;
@@ -100,10 +101,25 @@ section button {
     /* Borda arredondada */
 }
 
+.item-erro {
+    background: #FFFFFF;
+    /* Cor de fundo dos itens */
+    min-width: 40%;
+    text-align: center;
+    border-radius: 0.6rem;
+    /* Borda arredondada */
+    padding: 1rem;
+    /* Espaçamento interno */
+    margin-bottom: 1rem;
+    /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
+}
 /* Estiliza cada item de resultado */
 .item-resultado {
     background: #FFFFFF;
     /* Cor de fundo dos itens */
+    min-width: 40%;
     border-radius: 0.6rem;
     /* Borda arredondada */
     padding: 1rem;

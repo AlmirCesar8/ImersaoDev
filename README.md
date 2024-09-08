@@ -2,7 +2,7 @@
 
 **O que faz essa aplicação?**
 
-Imagina que você é um corinthiano de carteirinha e quer saber tudo sobre seus jogadores favoritos? Com essa aplicação, você digita o nome do jogador ou sua posição e pronto! A mágica acontece: uma lista com todas as informações que você precisa aparece na tela, como nome completo, posição em campo, uma breve descrição e links para o Instagram e Wikipedia do atleta. 
+Imagina que você é um corinthiano de carteirinha e quer saber tudo sobre seus jogadores favoritos? Com essa aplicação, você digita o nome do jogador, sua posição ou sua nacionalidade e pronto! A mágica acontece: uma lista com todas as informações que você precisa aparece na tela, como nome completo, posição em campo, uma breve descrição e links para o Instagram e Wikipedia do atleta. 
 
 **Como funciona?**
 
