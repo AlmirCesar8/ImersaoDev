@@ -115,6 +115,7 @@ section button {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Sombra leve */
 }
+
 /* Estiliza cada item de resultado */
 .item-resultado {
     background: #FFFFFF;
@@ -178,6 +179,24 @@ footer {
     /* Tamanho da fonte */
 }
 
+/* Adicionando uma classe para os links com mais informações */
+.mais-informacoes {
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.mais-informacoes:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 25px; 
+    height: 25px;
+    margin-left: 8px;
+}
+
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;
@@ -206,22 +225,12 @@ footer {
     }
 }
 
-/* Adicionando uma classe para os links com mais informações */
-.mais-informacoes {
-    color: #007bff;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.mais-informacoes:hover {
-    text-decoration: underline;
-}
-
 /* Responsividade para celulares */
 @media (max-width: 480px) {
-    body{
+    body {
         padding: 5%;
     }
+
     h1 {
         font-size: 1.8rem;
         /* Tamanho da fonte em telas pequenas */

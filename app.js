@@ -1,8 +1,7 @@
 function pesquisar() {
   // Obtém a seção onde os resultados serão exibidos
   let section = document.getElementById("resultados-pesquisa");
-  let campoPesquisa = document.getElementById("campo-pesquisa").value;
-  campoPesquisa = campoPesquisa.toLowerCase()
+  let campoPesquisa = document.getElementById("campo-pesquisa").value.toLowerCase();
   // Inicializa uma string vazia para armazenar os resultados
   let resultado = "";
 
@@ -15,7 +14,7 @@ function pesquisar() {
         if (dado.gols != 0 && dado.assistencias != 0){
           resultado += `
           <div class="item-resultado">
-            <h2><a href=${dado.insta} target="_blank">${dado.nome}</a></h2>
+            <h2>${dado.nome}<a href=${dado.insta} target="_blank"><img class="logo" src="insta.png" alt="Instagram"></a></h2>
             <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, marcando ${dado.gols} gols e distribuindo ${dado.assistencias} assistências nessas partidas. ${dado.descricao}</p>
             <a href="${dado.wiki}" target="_blank">Mais informações</a>
           </div>
@@ -24,7 +23,7 @@ function pesquisar() {
         else{
           resultado += `
           <div class="item-resultado">
-            <h2><a href=${dado.insta} target="_blank">${dado.nome}</a></h2>
+            <h2>${dado.nome}<a href=${dado.insta} target="_blank"><img class="logo" src="insta.png" alt="Instagram"></a></h2>
             <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, sem nenhum gol marcado e sem nenhuma assistência nessas partidas. ${dado.descricao}</p>
             <a href="${dado.wiki}" target="_blank">Mais informações</a>
           </div>
@@ -34,7 +33,7 @@ function pesquisar() {
       else{
         resultado += `
         <div class="item-resultado">
-          <h2><a href=${dado.insta} target="_blank">${dado.nome}</a></h2>
+          <h2>${dado.nome}<a href=${dado.insta} target="_blank"><img class="logo" src="insta.png" alt="Instagram"></a></h2>
           <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, defendendo ${dado.penal_def} pênaltis e sofrendo ${dado.gols_sofri} gols. ${dado.descricao}</p>
           <a href="${dado.wiki}" target="_blank">Mais informações</a>
         </div>
