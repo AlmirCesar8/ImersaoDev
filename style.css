@@ -5,7 +5,7 @@
 body {
     font-family: "Chakra Petch", sans-serif;
     /* Define a fonte padrão */
-    background-image: url(Gramado1.jpg);
+    background-image: url(imagens/Gramado1.jpg);
     background-size: cover;
     display: flex;
     /* Usa Flexbox para layout */
@@ -196,6 +196,20 @@ footer {
     margin-left: 8px;
 }
 
+.topo {
+    display: flex;
+    align-items: center;
+}
+
+.perfil {
+    width: 20%;
+    margin-right: 2%;
+}
+
+.info {
+    width: 80%;
+    text-align: justify;
+}
 
 @media (max-width: 768px) {
     h1 {

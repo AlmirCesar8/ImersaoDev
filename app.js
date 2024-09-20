@@ -8,34 +8,33 @@ function pesquisar() {
   // Itera sobre cada dado na lista de dados
   for (let dado of dados) {
     let tag = dado.tags.toLowerCase()
-    if (dado.nome.toLowerCase().includes(campoPesquisa) || dado.posicao.toLowerCase().includes(campoPesquisa) || dado.nacionalidade.toLowerCase().includes(campoPesquisa) || tag.includes(campoPesquisa)){
+    if (dado.nome.toLowerCase().includes(campoPesquisa) || dado.posicao.toLowerCase().includes(campoPesquisa) || dado.nacionalidade.toLowerCase().includes(campoPesquisa) || tag.includes(campoPesquisa)) {
       // Cria um novo elemento div para cada resultado
-      if (dado.posicao != "goleiro"){
-        if (dado.gols != 0 && dado.assistencias != 0){
+      if (dado.posicao != "goleiro") {
           resultado += `
           <div class="item-resultado">
-            <h2>${dado.nome}<a href=${dado.insta} target="_blank"><img class="logo" src="insta.png" alt="Instagram"></a></h2>
-            <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, marcando ${dado.gols} gols e distribuindo ${dado.assistencias} assistências nessas partidas. ${dado.descricao}</p>
-            <a href="${dado.wiki}" target="_blank">Mais informações</a>
+            <div class="topo">
+              <img class="perfil" src="jogadores/${dado.foto}" alt="${dado.nome}">
+              <div class="info">
+                  <h2>${dado.nome}<a href=${dado.insta} target="_blank"><img class="logo" src="imagens/insta.png" alt="Instagram"></a></h2>
+                  <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, marcando ${dado.gols} gols e distribuindo ${dado.assistencias} assistências nessas partidas. ${dado.descricao}</p>
+                  <a href="${dado.wiki}" target="_blank">Mais informações</a>
+              </div>
+            </div>
           </div>
           `;
         }
-        else{
-          resultado += `
-          <div class="item-resultado">
-            <h2>${dado.nome}<a href=${dado.insta} target="_blank"><img class="logo" src="insta.png" alt="Instagram"></a></h2>
-            <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, sem nenhum gol marcado e sem nenhuma assistência nessas partidas. ${dado.descricao}</p>
-            <a href="${dado.wiki}" target="_blank">Mais informações</a>
-          </div>
-          `;
-        }
-      }
-      else{
+      else {
         resultado += `
         <div class="item-resultado">
-          <h2>${dado.nome}<a href=${dado.insta} target="_blank"><img class="logo" src="insta.png" alt="Instagram"></a></h2>
-          <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, defendendo ${dado.penal_def} pênaltis e sofrendo ${dado.gols_sofri} gols. ${dado.descricao}</p>
-          <a href="${dado.wiki}" target="_blank">Mais informações</a>
+          <div class="topo">
+            <img class="perfil" src="jogadores/${dado.foto}" alt="${dado.nome}">
+            <div class="info">
+                <h2>${dado.nome}<a href=${dado.insta} target="_blank"><img class="logo" src="imagens/insta.png" alt="Instagram"></a></h2>
+                <p>${dado.nacionalidade} de ${dado.idade} anos, o camisa ${dado.camisa} do Corinthians é um(a) ${dado.posicao} que já disputou ${dado.jogos} jogos, defendendo ${dado.penal_def} pênaltis e sofrendo ${dado.gols_sofri} gols. ${dado.descricao}</p>
+                <a href="${dado.wiki}" target="_blank">Mais informações</a>
+            </div>
+          </div>
         </div>
         `;
       }

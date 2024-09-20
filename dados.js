@@ -10,9 +10,10 @@ let dados = [
         posicao: "zagueiro",
         jogos: 13,
         titulos: 0,
-        gols: 0,
+        gols: 1,
         assistencias: 0,
         tags: "andre",
+        foto: "andré_ramalho.webp"
     },
 
     {
@@ -29,6 +30,7 @@ let dados = [
         gols: 58,
         assistencias: 24,
         tags: "angel",
+        foto: "romero.png"
     },
 
     {
@@ -61,6 +63,7 @@ let dados = [
         gols: 0,
         assistencias: 0,
         tags: "cria do terrão terrao",
+        foto: "caetano.webp"
     },
 
     {
@@ -157,6 +160,7 @@ let dados = [
         penal_def: 4,
         gols_sofri: 14,
         tags: "",
+        foto: "hugo_souza.webp"
     },
 
     {
