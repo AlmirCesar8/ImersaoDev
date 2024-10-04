@@ -13,7 +13,7 @@ let dados = [
         gols: 1,
         assistencias: 0,
         tags: "andre",
-        foto: "andré_ramalho.webp"
+        foto: "andre_ramalho.png",
     },
 
     {
@@ -30,7 +30,7 @@ let dados = [
         gols: 58,
         assistencias: 24,
         tags: "angel",
-        foto: "romero.png"
+        foto: "romero.png",
     },
 
     {
@@ -47,6 +47,7 @@ let dados = [
         gols: 5,
         assistencias: 1,
         tags: "caca",
+        foto: "caca.png",
     },
 
     {
@@ -63,7 +64,7 @@ let dados = [
         gols: 0,
         assistencias: 0,
         tags: "cria do terrão terrao",
-        foto: "caetano.webp"
+        foto: "caetano.png",
     },
 
     {
@@ -80,6 +81,7 @@ let dados = [
         gols: 0,
         assistencias: 0,
         tags: "",
+        foto: "palacios.png",
     },
 
     {
@@ -96,6 +98,7 @@ let dados = [
         gols: 12,
         assistencias: 67,
         tags: "cria do terrão terrao",
+        foto: "fagner.png",
     },
 
     {
@@ -111,7 +114,8 @@ let dados = [
         titulos: 0,
         gols: 0,
         assistencias: 0,
-        tags: "felix"
+        tags: "felix",
+        foto: "felix.png",
     },
 
     {
@@ -127,7 +131,8 @@ let dados = [
         titulos: 0,
         gols: 1,
         assistencias: 0,
-        tags: "gh"
+        tags: "gh",
+        foto: "gustavo_henrique.png",
     },
 
     {
@@ -144,6 +149,7 @@ let dados = [
         gols: 0,
         assistencias: 6,
         tags: "",
+        foto: "hugo.png",
     },
 
     {
@@ -159,8 +165,9 @@ let dados = [
         titulos: 0,
         penal_def: 4,
         gols_sofri: 14,
-        tags: "",
-        foto: "hugo_souza.webp"
+        gols: 0,
+        tags: "sousa",
+        foto: "hugo_souza.png"
     },
 
     {
@@ -177,6 +184,7 @@ let dados = [
         gols: 2,
         assistencias: 3,
         tags: "",
+        foto: "igor_coronado.png",
     },
 
     {
@@ -192,7 +200,8 @@ let dados = [
         titulos: 2,
         gols: 0,
         assistencias: 2,
-        tags: "leo maná cria do terrão terrao"
+        tags: "leo maná cria do terrão terrao",
+        foto: "leo_mana.png",
     },
     
     {
@@ -208,7 +217,8 @@ let dados = [
         titulos: 0,
         gols: 1,
         assistencias: 0,
-        tags: "mateuzinho"
+        tags: "mateuzinho matheusinho",
+        foto: "matheuzinho.png",
     },
 
     {
@@ -225,6 +235,7 @@ let dados = [
         gols: 2,
         assistencias: 2,
         tags: "mateus mathéus",
+        foto: "matheus_bidu.png",
     },
 
     {
@@ -240,7 +251,9 @@ let dados = [
         titulos: 0,
         penal_def: 1,
         gols_sofri: 24,
+        gols: 0,
         tags: "cria do terrão terrao mateus doneli",
+        foto: "matheus_donelli.png",
     },
 
     {
@@ -257,6 +270,7 @@ let dados = [
         gols: 0,
         assistencias: 0,
         tags: "",
+        foto: "raniele.png",
     },
 
     {
@@ -273,6 +287,7 @@ let dados = [
         gols: 6,
         assistencias: 5,
         tags: "",
+        foto: "rodrigo_garro.png",
     },
 
     {
@@ -289,6 +304,7 @@ let dados = [
         gols: 3,
         assistencias: 0,
         tags: "tales",
+        foto: "talles_magno.png",
     },
 
     {
@@ -305,9 +321,7 @@ let dados = [
         gols: 42,
         assistencias: 13,
         tags: "",
+        foto: "yuri_alberto.png",
     },
-    
 
-   
-    
 ];
